@@ -1,9 +1,12 @@
+// modules protect their varaiables and functions from leaking
+
 console.log("SUM");
-function calculateSum(a, b) {
+export function calculateSum(a, b) {
 	console.log(a + b);
 }
 
-var x= 100;
+export var x = 100;
 // module.exports = calculateSum;
 
-module.exports = {x, calculateSum};
+// module.exports = {x: x, calculateSum: calculateSum};
+// module.exports = {x, calculateSum};
