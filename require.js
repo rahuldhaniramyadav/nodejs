@@ -1,0 +1,1 @@
+console.log("Call this code in abother module but we cant access the variable");
