@@ -1,13 +1,14 @@
 require("./require");
 require("./sum");  // unable access the variable
 
-const calculateSum = require("./sum");
+// const calculateSum = require("./sum");
+const {x, calculateSum} = require("./sum");
 
 var a = 10;
 var b = 20;
 
 console.log(a+b);
-
+console.log(x);
 console.log(calculateSum(a, b));  //ReferenceError: calculateSum is not defined
 
 // console.log(this); {}

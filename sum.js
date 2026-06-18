@@ -1,6 +1,9 @@
 console.log("SUM");
-function calculateSum (a, b) {
+function calculateSum(a, b) {
 	console.log(a + b);
 }
 
-module.exports = calculateSum;
+var x= 100;
+// module.exports = calculateSum;
+
+module.exports = {x, calculateSum};
