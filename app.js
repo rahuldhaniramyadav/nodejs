@@ -1,8 +1,10 @@
-require("./require");
-require("./sum");  // unable access the variable
+// require("./require");
+// require("./sum");  // unable access the variable
 
 // const calculateSum = require("./sum");
-const {x, calculateSum} = require("./sum");
+// const {x, calculateSum} = require("./sum");
+
+import {calculateSum, x} from "./sum.js";
 
 var a = 10;
 var b = 20;
